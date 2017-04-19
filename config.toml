@@ -1,0 +1,16 @@
+baseURL = "http://www.valentincauro.com.s3-website.ca-central-1.amazonaws.com/"
+title = "Valentin Cauro — Designer Graphique Multimedia"
+theme = "Keauval0.1"
+canonifyURLs = true
+
+[taxonomies]
+category = "categories"
+
+[[menu.main]]
+	name = "PORTFOLIO"
+	url = "/work/"
+
+[[menu.main]]
+	name = "À PROPOS"
+	url = "/about/"
+

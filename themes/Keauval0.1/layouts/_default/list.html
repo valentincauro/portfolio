@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	{{ partial "head.html" .}} 
+
+	<body>
+
+		{{ partial "header.html" .}}
+
+		<div class="main work">
+
+		{{ partial "catmenu.html" .}}
+
+
+			<div class="workcontainer">
+
+				<div class="workview">
+
+					{{ range .Data.Pages.ByWeight }}
+					  	<a href="{{ .Permalink }}" class="worktitre">
+					  		<div class="workpost-{{ .Weight }}">
+				  			<div class="bluemask">
+
+					  			<div class="workinfo">
+								
+									<h2>{{ .Params.company }}</h2>
+									<h1>{{ .Title }}</h1>
+									<ul>
+										{{ partial "listcategories.html" .}}
+									</ul>
+
+								</div>
+								</div>
+							<img src="/thmb/{{ .File.BaseFileName }}.jpg"></img>
+
+						</a>
+					  	</div>
+					{{ end }}
+
+				</div>
+
+			</div>
+		</div>
+		
+	</body>
+</html>

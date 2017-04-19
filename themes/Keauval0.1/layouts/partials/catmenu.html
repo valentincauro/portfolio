@@ -1,0 +1,6 @@
+<div class="catmenu">
+			<a href="{{ .Site.BaseURL }}work/" class="all">ALL</a>
+	{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+			<a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+	{{ end }}
+</div>
