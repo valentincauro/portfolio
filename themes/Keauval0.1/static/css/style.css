@@ -580,7 +580,6 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 .postcontent{
 	padding-top:50px;
 	padding-bottom:100px;
-	font-family: 'Open-sans', sans-serif;
 	text-align: center;
 }
 
@@ -606,13 +605,29 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 	display: inline-block;
 }
 
+.postcontent a{
+	font-family: 'Montserrat', sans-serif;
+	color: #6f8bff;
+	text-decoration:none;
+	padding: 0 0 2px 0;
+	transition: all .2s ease;
+}
+
+.postcontent a:hover{
+	color:blue;
+	margin-left:5px;
+	padding: 0 0 5px 0;
+	transition: all .2s ease;
+}
+
 .postcontent blockquote{
+	font-family: 'Montserrat', sans-serif;
+	text-align:left;
 	padding-left:0;
 	color:#333;
 	max-width: 800px;
 	margin:3em auto;
-	font-family:'Open-sans', sans-serif;
-	font-size:1.2em;
+	font-size:1em;
 }
 
 blockquote::before{
