@@ -6,20 +6,25 @@
 	<body>
 
 
-		{{ partial "socials.html" .}}
 		{{ partial "header.html" .}}
 
-		<div id="main">
+		<div id="main" class="post">
 
+		{{ partial "socials.html" .}}
 		{{ partial "navpost.html" .}}
 	
 			<div class="posthead">
+				<picture>
+					<source srcset="/thmb/{{ .File.BaseFileName }}.jpg" media="(max-width: 700px)">
+					<source srcset="../../featured/{{ .File.BaseFileName }}.jpg">
+					<img srcset="../../featured/{{ .File.BaseFileName }}.jpg" class="featured">
+				</picture>
+			</div>
+
 				<div class="postinfo">
 					<h2>— {{ .Params.company }} —</h2>
 					<h1>{{ .Title }}</h1>
 				</div>
-				<img src="../../featured/{{ .File.BaseFileName }}.jpg" class="featured"></img>
-			</div>
 
 			{{ if .Params.intro }}
 

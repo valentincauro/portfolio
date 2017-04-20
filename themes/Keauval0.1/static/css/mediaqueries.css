@@ -17,7 +17,7 @@
 @media only screen and (max-width: 700px) {
 
 	body {
-		background-color:#3B5EF7;
+		background-color:blue;
 	}
 
 /* - - - A N I M A T E D - G R A D I E N T - - - - -
@@ -34,6 +34,10 @@
 		100%{background-position:0% 100%;};
 	}
 */
+
+	#main{
+		background-color: #ffffff;
+	}
 	.headerhp{
 		margin-top:-20px;
 	}
@@ -133,7 +137,7 @@
 
 
 	header{
-		padding:15px 0;
+		padding:15px 0 0 0;
 		height:inherit;
 		top:0;
 		display: block;
@@ -149,7 +153,7 @@
 	}
 
 	header #nav{
-		background-color:#ffffff;
+		background-color:#3B5EF7;
 		display: block;
 		margin:20px 0 0 0;
 		position:relative;
@@ -164,7 +168,9 @@
 	}
 
 	header #nav a{
-		color:#3B5EF7;
+		padding:15px;
+		color:#ffffff;
+		font-size:1.6em;
 		font-weight: 300;
 		border:0;
 		margin: 0;
@@ -172,7 +178,8 @@
 
 	header #nav a.active{
 		font-weight:bold;
-		color:#3B5EF7;
+		border-bottom:5px solid #fff;
+		color:#ffffff;
 		border: 0;
 	}
 
@@ -181,7 +188,8 @@
 	}
 
 	.workcontainer{
-		padding:20px 0;
+		background-color:#ffffff;
+		padding:10px 0;
 	}
 	a.worktitre{
 		text-decoration:none;
@@ -190,46 +198,118 @@
 
 	#post {
 		display: block;
-		margin:0 0 20px 0;
+		margin:40px 0;
 	}
 
 	#post .bluemask{
+		background-color:transparent;
 		position:relative;
 		opacity:1;
+		margin-bottom:0;
 	}
 
 	#post .workinfo {
 		text-align: center;
 		position:relative;
 		padding: 0;
-		margin-bottom:1em;
-	}
-
-	#post:after{
-	    content: "";
-	    display: block;
-	    border: aliceblue 0.2px dashed;
-	    margin-top: 30px;
-	    margin: 30px 60px;
+		margin-bottom:0.4em;
 	}
 
 	#post .workinfo a{
 		text-decoration:none;
 	}
 	#post .workinfo ul{
-		display:none;
+
+		color:blue;
 	}
 	
-	#post .workinfo h1{
+	#post .workinfo h1,
+	.post .postinfo h1{
+		color:blue;
+		line-height: 1em;
 		font-family:'Shrikhand', cursive;
-		font-size:1.5em;
+		font-size:2.8em;
+		margin-bottom:5px;
 	}
 
-	#post .workinfo h2{
+	#post .workinfo h2 {
 		font-size:1em;
-		margin-bottom:10px;
+		margin-bottom:15px;
 		font-weight: 200;
+		color:blue;
+		border:1px solid blue;
+		display: inline-block;
+		padding:2px 20px;
+	}
 
+	.post .socials{
+		display: none;
+	}
+
+	.navpost{
+		display: none;
+	}
+
+	.postcontent{
+		background-color:#ffffff;
+	}
+
+	.post .postinfo{
+		margin-top:2em;
+		background-color: #ffffff;
+		position:relative;
+		color: blue;
+	}
+
+	.post .postinfo h1{
+		color:blue;
+		line-height: 1em;
+		font-family:'Shrikhand', cursive;
+		font-size:2.8em;
+		text-shadow: none;
+		margin: 10px 0;
+	}
+
+	.post .postinfo h2{
+		margin:10px 0;
+		font-size: 1.4em;
+
+	}
+
+	.postintro{
+		padding: 10px;
+		background-color:#ffffff;
+	}
+
+	.postintro p{
+		background-color:#ffffff;
+	}
+
+	.postcontent{
+
+	}
+
+	.postcontent h3{
+		margin:10px 0;
+	}
+
+	.postcontent img{
+		max-width:100%;
+		margin:10px 0;
+	}
+
+	.about{
+		background:none;
+		height: 100vh;
+	}
+
+	.about .blocabout{
+		top:20vh;
+	}
+
+	.skills li{
+		width:100%;
+	}
 }
 
 
