@@ -1,5 +1,5 @@
 +++
-categories = ["graphisme", "video", "illustration", "photographie"]
+categories = ["graphisme", "photographie"]
 company = "Dirty Est"
 date = "2016-04-12T15:00:00-04:00"
 title = "Summer 2011 Tee Collection"

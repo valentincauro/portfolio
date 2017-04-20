@@ -20,12 +20,12 @@ header{
 
 .headerhp{
 	margin-top:15vh;
-	opacity:.9;
+	opacity:1;
 	text-align: center;
 }
 
 .logoheader{
-	opacity:.9;
+	opacity:1;
 	outline: none;
 	display:inline-block;
 	background-image:url(../img/valentinsignature.jpg);
@@ -65,6 +65,10 @@ header{
 
 .hp h2{
 	color:#0031FF;
+}
+
+.hpmobile{
+	display: none;
 }
 
 .menuhp a{
@@ -175,7 +179,7 @@ header{
     left: 0;
     bottom:0;
     margin-top:30vh;
-    filter: brightness(100) saturate(0);
+    filter: brightness(5) saturate(0) contrast(2);
 }
 
 .skills{

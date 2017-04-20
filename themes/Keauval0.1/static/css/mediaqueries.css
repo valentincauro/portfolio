@@ -16,6 +16,41 @@
 
 @media only screen and (max-width: 700px) {
 
+	body {
+		background-color:#3B5EF7;
+	}
+
+/* - - - A N I M A T E D - G R A D I E N T - - - - -
+
+	body {
+		background-size: 400% 400%;
+		background-image: linear-gradient(120deg, #1CCBFF 0%, #3300ff 100%);
+		animation: BckgAnim 20s ease infinite;
+	}
+
+	@keyframes BckgAnim{
+		0%{background-position:0% 50%;}
+		50%{background-position:100% 50%;};
+		100%{background-position:0% 100%;};
+	}
+*/
+	.headerhp{
+		margin-top:-20px;
+	}
+
+	.logoheader{
+    background-image:none;
+	content: url(../img/valentinsignaturewhite.png);
+    display: inline-grid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 120%;
+    height:inherit;
+    margin-top: 0px;
+    margin-left: -10%;
+    border: 0;
+	}
+
 	[class^="workpost-"] {
 		font-size:140%;
 		width:100%;
@@ -28,11 +63,173 @@
 		width:100%;
 	}
 
+	.hp{
+		display: none;
+	}
+
+	.hpmobile{
+		margin:5vh 0;
+		display: inherit;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	.hpmobile h1{
+		display: block;
+		font-weight: 200;
+		width:100%;
+		font-size:6vw;
+		letter-spacing: 1vw;
+	}
+
+	.hpmobile h2{
+		display: block;
+		font-weight: 100;
+		width:100%;
+		font-size:6vw;
+		letter-spacing: 1vw;
+	}
+
+	.hpmobile .menu{
+		margin-top:8vh;
+	}
+
+	.hpmobile .menu a{
+		font-weight: 200;
+		margin:10px auto;
+		font-size:1.4em;
+		display: block;
+		letter-spacing: 5px;
+		width:90%;
+		padding:10px 20px;
+		color: #ffffff;
+		text-decoration: none;
+		border:2px solid #ffffff;
+		border-radius:5px;
+	}
+
+	.hpmobile .socials{
+		position:initial;
+	    width: 100%;
+	    left: 0;
+	    bottom:0;
+	    margin-top:10vh;
+	    filter: brightness(5) saturate(0) contrast(2);
+	}
+
+	.hpmobile .socials a{
+		opacity:1;
+		display: inline-block;
+		margin:0 30px;
+		transform:scale(2);
+	}
+
+	.hpmobile .socials a.social-li,
+	.hpmobile .socials a.social-vimeo,
+	.hpmobile .socials a.social-mail{
+		display: none;
+	}
+
+
+	header{
+		padding:15px 0;
+		height:inherit;
+		top:0;
+		display: block;
+		background-color:transparent;
+	}
+
+	header .logoheader{
+		height:inherit;
+		display: block;
+		margin:0 auto;
+		margin:0 auto;
+		width:100%;
+	}
+
+	header #nav{
+		background-color:#ffffff;
+		display: block;
+		margin:20px 0 0 0;
+		position:relative;
+		width: 100%;
+	}
+
+	header #nav.menu{
+		padding-top:10px;
+		position:relative;
+		left:0;
+		height:50px;
+	}
+
+	header #nav a{
+		color:#3B5EF7;
+		font-weight: 300;
+		border:0;
+		margin: 0;
+	}
+
+	header #nav a.active{
+		font-weight:bold;
+		color:#3B5EF7;
+		border: 0;
+	}
+
+	header #nav.language{
+		display: none;
+	}
+
+	.workcontainer{
+		padding:20px 0;
+	}
+	a.worktitre{
+		text-decoration:none;
+		display: block;
+	}
+
+	#post {
+		display: block;
+		margin:0 0 20px 0;
+	}
+
+	#post .bluemask{
+		position:relative;
+		opacity:1;
+	}
+
+	#post .workinfo {
+		text-align: center;
+		position:relative;
+		padding: 0;
+		margin-bottom:1em;
+	}
+
+	#post:after{
+	    content: "";
+	    display: block;
+	    border: aliceblue 0.2px dashed;
+	    margin-top: 30px;
+	    margin: 30px 60px;
+	}
+
+	#post .workinfo a{
+		text-decoration:none;
+	}
+	#post .workinfo ul{
+		display:none;
+	}
+	
+	#post .workinfo h1{
+		font-family:'Shrikhand', cursive;
+		font-size:1.5em;
+	}
+
+	#post .workinfo h2{
+		font-size:1em;
+		margin-bottom:10px;
+		font-weight: 200;
+
 }
 
 
-.workcontainer{
-	margin:0 auto;
-	padding:20px 50px;
-	max-width:1600px;
-}

@@ -9,7 +9,7 @@
 
 		<div class="main work">
 
-		{{ partial "catmenu.html" .}}
+		<!-- {{ partial "catmenu.html" .}} -->
 
 
 			<div class="workcontainer">
@@ -18,7 +18,7 @@
 
 					{{ range .Data.Pages.ByWeight }}
 					  	<a href="{{ .Permalink }}" class="worktitre">
-					  		<div class="workpost-{{ .Weight }}">
+					  		<div class="workpost-{{ .Weight }}" id="post">
 				  			<div class="bluemask">
 
 					  			<div class="workinfo">
