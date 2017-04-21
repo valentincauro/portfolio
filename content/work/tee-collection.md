@@ -32,8 +32,8 @@ intro = "Deux ans après sa création, l’association s’intègre dans le p
 
 ### VIDEO
 
-<p><iframe src="https://player.vimeo.com/video/167872389?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/167872389' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 >Deux ans après sa création, l’association s’intègre dans le paysage culturel de l’est parisien. Nous lançons alors une collection de tee-shirt dessinés par 4 artistes de Dirty Est. Ils seront vendus sur LaChoperie et en pop-up store. Série limités à 50 ex.  Illustration d’un des modèle, direction artistique du shooting, photographie et réalisation video.
 
-<p><iframe src="https://player.vimeo.com/video/23883870?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/23883870' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>

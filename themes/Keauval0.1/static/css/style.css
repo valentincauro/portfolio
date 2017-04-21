@@ -6,12 +6,17 @@ body{
 }
 
 header{
+	position:fixed;
 	top:0;
-	padding:10px;
-	height:120px;
+	padding:0px;
+	height:100px;
 	width:100%;
 	background-color: #ffffff;
 	z-index: 15;
+}
+
+#sticky-anchor{
+	display: inline-block;
 }
 
 .keauvalcopyright{
@@ -106,12 +111,12 @@ header{
 }
 
 .main{
-
+	padding-top:100px;
 } 
 
 .about{
 	width:100%;
-	height:calc(100vh - 120px);
+	height:100vh;
 	background-position: center;
 	background:url(../img/aboutbackground.svg) 100% no-repeat;
 	background-size:cover;
@@ -381,6 +386,7 @@ content:url(../img/picto-da.svg);
 	width:40px;
 	left:18px;
 	bottom:10%;
+	z-index: -1;
 	transition: all .2s ease;
 }
 
@@ -413,6 +419,25 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 	width:100%;
 	z-index: 10;
 	top:50%;
+}
+
+.embed-container{
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 80%;
+	margin:20px auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .navpost a {
@@ -535,7 +560,7 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 
 .postinfo h1{
 	font-family: 'Shrikhand', cursive;
-	font-size: 5vw;
+	font-size: 6vw;
 	letter-spacing:1px;
 	margin:0;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
@@ -543,7 +568,7 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 
 .postinfo h2{
 	text-transform: uppercase;
-	font-size:2vw;
+	font-size:3vw;
 	font-weight: 300;
 	letter-spacing: 0.6em;
 	margin:0;
@@ -625,8 +650,8 @@ a.social-mail{background-image:url(../img/socials_mail.svg)}
 
 .postcontent blockquote{
 	font-family: 'Montserrat', sans-serif;
+	padding: 20px 20px;
 	text-align:left;
-	padding-left:0;
 	color:#333;
 	max-width: 800px;
 	margin:3em auto;

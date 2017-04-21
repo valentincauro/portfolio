@@ -1,21 +1,22 @@
 <script>
-var whenScrlBottom = function() {
-  var win_h = (self.innerHeight) ? self.innerHeight : document.body.clientHeight;    // gets window height
+if (screen && screen.width > 700) {
+  var whenScrlBottom = function() {
+    var win_h = (self.innerHeight) ? self.innerHeight : document.body.clientHeight;    // gets window height
 
-  var scrl_pos = window.pageYOffset ? window.pageYOffset : document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
+    var scrl_pos = window.pageYOffset ? window.pageYOffset : document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
 
-  if (document.body.scrollHeight <= (scrl_pos + win_h)) {
-    document.getElementById('navright').classList.remove("collapse");
-    document.getElementById('navleft').classList.remove("collapse");
+    if (document.body.scrollHeight <= (scrl_pos + win_h)) {
+      document.getElementById('navright').classList.remove("collapse");
+      document.getElementById('navleft').classList.remove("collapse");
+    }
+    else{
+      document.getElementById('navright').classList.add("collapse");
+      document.getElementById('navleft').classList.add("collapse");
+
+    }
   }
-  else{
-    document.getElementById('navright').classList.add("collapse");
-    document.getElementById('navleft').classList.add("collapse");
-
-  }
+  window.onscroll = whenScrlBottom;
 }
-
-window.onscroll = whenScrlBottom;
 </script>
 
 <div class="navpost">

@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html>
 	{{ partial "head.html" .}}
-<body>
-	{{ partial "headerhp.html" .}}
-	
-	<div class="hp">
-        <div class='content center'>
-            <h1 id='keauval'>
-              <div>L'EXPÉRIENCE</div>
-              <div id='keauval-container-scroller'>
-      	        <div class='keauval-container-scroller_item'>
-                  <p>UN POINT C'EST TOUT.</p>
-                </div>
-                <div class='keauval-container-scroller_item'>
-                  <p>VISUELLE</p>
-                </div>
-                <div class='keauval-container-scroller_item'>
-                  <p>CRÉATIVE</p>
-                </div>
-                <div class='keauval-container-scroller_item'>
-                  <p>ARTISTIQUE</p>
-                </div>
-                <div class='keauval-container-scroller_item'>
-                  <p>INTÉRACTIVE</p>
-                </div>
-                <div class='keauval-container-scroller_item'>
-                  <p>UTILISATEUR</p>
-                </div>
-              </div>
-            </h1>
-        </div>
-        <div class="menuhp">
-	        {{ partial "menu.html" .}}
+  <body>
+    <div class="global animbckg">
+
+    	{{ partial "headerhp.html" .}}
+    	
+    	<div class="hp">
+            <div class='content center'>
+                <h1 id='keauval'>
+                  <div>L'EXPÉRIENCE</div>
+                  <div id='keauval-container-scroller'>
+          	        <div class='keauval-container-scroller_item'>
+                      <p>UN POINT C'EST TOUT.</p>
+                    </div>
+                    <div class='keauval-container-scroller_item'>
+                      <p>VISUELLE</p>
+                    </div>
+                    <div class='keauval-container-scroller_item'>
+                      <p>CRÉATIVE</p>
+                    </div>
+                    <div class='keauval-container-scroller_item'>
+                      <p>ARTISTIQUE</p>
+                    </div>
+                    <div class='keauval-container-scroller_item'>
+                      <p>INTÉRACTIVE</p>
+                    </div>
+                    <div class='keauval-container-scroller_item'>
+                      <p>UTILISATEUR</p>
+                    </div>
+                  </div>
+                </h1>
+            </div>
+
+            <div class="menuhp">
+    	        {{ partial "menu.html" .}}
+        	  </div>
+            {{ partial "socials.html" .}}
+
     	</div>
+
+      <div class="hpmobile">
+        <h1>VALENTIN CAURO</h1>
+        <h2>DESIGNER GRAPHIQUE</h2>
+        {{ partial "menu.html" .}}
         {{ partial "socials.html" .}}
-	</div>
+      </div>
 
-
-  <div class="hpmobile">
-    <h1>VALENTIN CAURO</h1>
-    <h2>DESIGNER GRAPHIQUE</h2>
-    {{ partial "menu.html" .}}
-    {{ partial "socials.html" .}}
-  </div>
-
-	
-  
-</body>
+    </div>
+  </body>
 </html>
