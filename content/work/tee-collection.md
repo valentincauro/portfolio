@@ -10,23 +10,23 @@ weight = 2
 +++
 ### ILLUSTRATION
 
-![Illustration Dirty Est](/img/de_illus.jpg)
+![Illustration Dirty Est](/img/tee-collection/de_illus.jpg)
 
 ### DIRECTION ARTISTIQUE
 
-![Shooting Photo DE](/img/de_da_01.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_01.jpg)
 
-![Shooting Photo DE](/img/de_da_02.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_02.jpg)
 
-![Shooting Photo DE](/img/de_da_03.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_03.jpg)
 
-![Shooting Photo DE](/img/de_da_04.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_04.jpg)
 
-![Shooting Photo DE](/img/de_da_05.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_05.jpg)
 
-![Shooting Photo DE](/img/de_da_06.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_06.jpg)
 
-![Shooting Photo DE](/img/de_da_07.jpg)
+![Shooting Photo DE](/img/tee-collection/de_da_07.jpg)
 
 ### VIDEO
 

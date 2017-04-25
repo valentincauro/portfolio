@@ -1,6 +1,6 @@
 +++
 company = "Aïtana"
-categories = ["identite", "illustration"]
+categories = ["graphisme", "illustration"]
 date = "2017-04-12T15:02:00-04:00"
 title = "Viande de Belleville"
 weight = "1"
@@ -11,18 +11,18 @@ intro ="Carlos et Alexis détiennent le bon filon : des produits de très grande
 
 ### ILLUSTRATION
 
-![Logo Aitana](/img/aitana_illus_01.jpg)
+![Logo Aitana](/img/aitana/aitana_illus_01.jpg)
 
-![Logo Aitana](/img/aitana_illus_03.jpg)
+![Logo Aitana](/img/aitana/aitana_illus_03.jpg)
 
-![Logo Aitana](/img/aitana_illus_04.jpg)
+![Logo Aitana](/img/aitana/aitana_illus_04.jpg)
 
-![Logo Aitana](/img/aitana_illus_02.jpg)
+![Logo Aitana](/img/aitana/aitana_illus_02.jpg)
 
 
 ### IDENTITÉ VISUELLE
 
-![Cartes de visite](/img/aitana_id_02.jpg)
+![Cartes de visite](/img/aitana/aitana_id_02.jpg)
 
-![Grilles tarifaires](/img/aitana_id_01.jpg)
+![Grilles tarifaires](/img/aitana/aitana_id_01.jpg)
 

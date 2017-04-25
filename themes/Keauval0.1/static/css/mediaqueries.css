@@ -40,7 +40,7 @@
 
 	.main{
 		background-color: #ffffff;
-		padding-top:20px;
+		padding:10px;
 	}
 
 	.headerhp{
@@ -262,7 +262,49 @@
 	}
 
 	.navpost{
-		display: none;
+		margin:2em 0;
+		display: inline-block;
+		padding: 0;
+		position:relative;
+	    box-sizing: content-box;
+	}
+	.navpost,
+	.navpost .lefttt,
+	.navpost .righhht{
+		width:100%;
+		position:relative;
+	}
+
+	.navpost span{
+		right:0 !important;
+		left:0 !important;
+		margin:0 5px;
+		padding: 0 !important;
+		background-color: white !important;
+		color: blue !important;
+
+	}
+
+	.navpost a{
+		color:blue !important;
+		font-weight: 200;
+		margin:10px auto;
+		border: 1px solid blue;
+		padding: 10p;
+		text-align: center;
+		display: block;
+		width:90%;
+		background-color:transparent;
+	}
+
+	.prev.collapse{
+		float:initial;
+	    left: 0;
+	}
+
+	.next.collapse{
+		float:initial;
+		right:0
 	}
 
 	.postcontent{
@@ -271,13 +313,10 @@
 	}
 
 	.post .postinfo{
-		background-color:rgba(0, 0, 0, 0.5);
 		bottom:0;
 		padding: 10px 0;
-		top:inherit;
-		margin-top:1em;
+		top:15%;
 		position:absolute;
-		color: blue;
 	}
 
 	.post .postinfo h1{
@@ -285,7 +324,6 @@
 		line-height: 1em;
 		font-family:'Shrikhand', cursive;
 		font-size:10vw;
-		text-shadow: none;
 		margin: 10px 0;
 	}
 
@@ -296,7 +334,7 @@
 	}
 
 	.postintro{
-		padding: 10px;
+		padding: 30px 10px;
 		background-color:#ffffff;
 	}
 
@@ -311,12 +349,12 @@
 	}
 
 	.postcontent h3{
-		margin:10px 0;
+		margin:2em 0;
 	}
 
 	.postcontent img{
 		max-width:100%;
-		margin:10px 0;
+		margin:0;
 	}
 
 	.embed-container{
@@ -339,18 +377,27 @@
 
 	.about{
 		background:none;
-		background-color:blue;
-		height: 80vh;
+		background-color:#fff;
+		height:80vh;
 	}
 
 	.about .blocabout{
-		top:20vh;
+		hyphens:none;
+		color: blue;
+		top:0;
+		margin-top:8em;
 	}
 
 	.about .blocabout a{
+		top:14vh;
 		display: none;
-
 	}
+
+	.about .socials {
+		margin-top:5em;
+		filter:none;
+	}
+
 	.skills{
 		font-size: 150%;
 		padding-top:50px;
@@ -363,6 +410,11 @@
 	    display: inline-block;
 	    width: 40%;
 	    margin-bottom: 30px;
+	}
+
+	footer{
+		margin-top:3em;
+	}
 }
 
 

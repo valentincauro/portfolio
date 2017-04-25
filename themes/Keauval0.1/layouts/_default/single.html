@@ -18,9 +18,9 @@
 					<h1>{{ .Title }}</h1>
 				</div>
 				<picture>
-					<source srcset="/thmb/{{ .File.BaseFileName }}.jpg" media="(max-width: 700px)">
-					<source srcset="../../featured/{{ .File.BaseFileName }}.jpg">
-					<img srcset="../../featured/{{ .File.BaseFileName }}.jpg" class="featured">
+					<source srcset="/img/{{ .File.BaseFileName }}/thmb.jpg" media="(max-width: 700px)">
+					<source srcset="../../img/{{ .File.BaseFileName }}/featured.jpg">
+					<img srcset="../../img/{{ .File.BaseFileName }}/featured.jpg" class="featured">
 				</picture>
 			</div>
 
