@@ -269,7 +269,7 @@ content:url(../img/picto-da.svg);
 
 .workcontainer{
 	margin:0 auto;
-	padding:20px;
+	padding:0 20px;
 	max-width:1600px;
 }
 
@@ -667,32 +667,33 @@ blockquote::before{
 
 
 #nav{
-	margin:36px 0;
 	text-align: center;
 	display:inline-block;
 }
 
 #nav a{
-	padding:10px;
-	font-weight: 100;
+	display: inline-block;
+	padding: 34px 0px;
+	margin:0 20px;
+	font-weight: 200;
 	font-family: 'Montserrat', sans-serif ;
 	font-size:20px;
 	color:#626262;
 	text-decoration: none;
-	border:1px solid #FFF;
+	border:1px solid transparent;
 	transition: border-color .3s ease;
 }
 
 #nav a:hover{
+	color:#0031FF;
 	transition: border-color .3s ease;
-	border-top:1px solid #0031FF;
 }
 
 #nav a.active{
-
 	transition: border-color .2s ease;
-	border-bottom:1px solid #0031FF;
-	color:gray;
+	color:#0031FF;
+	border-top:1px solid #0031FF;
+
 }
 
 #nav.menu{
