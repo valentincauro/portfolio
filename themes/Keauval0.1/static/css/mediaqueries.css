@@ -43,7 +43,7 @@
 
 	.main{
 		background-color: #ffffff;
-		padding-top:10px;
+		padding-top:0;
 	}
 
 	.headerhp{
@@ -181,6 +181,8 @@
 	}
 
 	header #nav.menu{
+		border-top: 1px solid #eaeaea;
+		border-bottom: 1px solid #eaeaea;
 		position:relative;
 		left:0;
 	}
@@ -205,7 +207,7 @@
 
 	.workcontainer{
 		background-color:#ffffff;
-		padding:10px 0;
+		padding:0 0 10px 0;
 	}
 	a.worktitre{
 		text-decoration:none;
@@ -264,6 +266,10 @@
 		border:1px solid #404040;
 		display: inline-block;
 		padding:2px 20px;
+	}
+
+	#post:after{
+		content:'>';
 	}
 
 	.post .socials{

@@ -1,7 +1,6 @@
 baseURL = "http://www.valentincauro.com/"
 title = "Valentin Cauro — Designer Graphique Multimedia"
 theme = "Keauval0.1"
-canonifyURLs = true
 
 [taxonomies]
 category = "categories"
