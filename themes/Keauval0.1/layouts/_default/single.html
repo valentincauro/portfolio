@@ -3,6 +3,16 @@
 
 	{{ partial "head.html" .}} 
 
+<script>
+		var submitted=false;
+
+		function show_alert() {
+			window.location="/confirmation";
+		}
+
+</script>
+
+
 	<body>
 
 
@@ -14,14 +24,15 @@
 	
 			<div class="posthead">
 				<div class="postinfo">
-					<h2>— {{ .Params.company }} —</h2>
-					<h1>{{ .Title }}</h1>
+					<div class="infos">
+						<h2>— {{ .Params.company }} —</h2>
+						<h1>{{ .Title }}</h1>
+					</div>
 				</div>
-				<picture>
-					<source srcset="/img/{{ .File.BaseFileName }}/thmb.jpg" media="(max-width: 700px)">
-					<source srcset="../../img/{{ .File.BaseFileName }}/featured.jpg">
+				<div class="featuredimg">
+					<!--<source srcset="/img/{{ .File.BaseFileName }}/thmb.jpg" media="(max-width: 700px)">-->
 					<img srcset="../../img/{{ .File.BaseFileName }}/featured.jpg" class="featured">
-				</picture>
+				</div>
 			</div>
 
 
@@ -45,6 +56,9 @@
 				{{ .Content }}
 
 			</div>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='REDIRECT-URL.html';}"></iframe>
+
+		{{ partial "formulaire.html" .}}
 
 		{{ partial "navpost.html" .}}
 

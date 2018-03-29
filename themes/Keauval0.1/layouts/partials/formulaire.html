@@ -1,0 +1,56 @@
+<script>
+		function auto_grow(element) {
+	    element.style.height = "95px";
+	    element.style.height = (element.scrollHeight)+"px";
+		}
+</script>
+<div class="container bckgray">
+	<div class="formulaire ">
+
+		<form action="https://docs.google.com/forms/d/e/1FAIpQLSez5Gs-rYsPydo2x4vJkCUKT4szkEtyV65lV_e8M6eWpRTyGw/formResponse"
+		      target="hidden_iframe"
+		      id="Form"
+		      method="POST">
+		    <fieldset>
+		        <h3>CONTACT</h3>
+		        <h4>Tu aimes mon travail ? Il fait beau chez toi ? <br /><strong>Écris moi !</strong></h4>
+		    </fieldset>
+		    <fieldset>
+		        <!--<legend for="">COURRIEL</legend>-->
+		        <div class="form-group">
+		            <input id="emailAddress" type="email" name="emailAddress" class="form-control" placeholder="Courriel" required>
+		        </div>
+		    </fieldset>
+
+
+		    <!-- Field type: "short" id: "1217490238" -->
+		    <fieldset>
+		        <!--<legend for="1217490238">Nom </legend> -->
+		        <div class="form-group">
+		            <input id="1682115797" type="text" name="entry.1682115797" class="form-control" placeholder="Nom" required>
+		        </div>
+		    </fieldset>
+
+
+		    <!-- Field type: "paragraph" id: "183136513" -->
+		    <fieldset>
+		        <div class="form-group lignes">
+		            <textarea id="97297289" name="entry.97297289" placeholder="Message" onkeyup="auto_grow(this)" style="height:44px;" class="form-control" required></textarea>
+		        </div>
+		    </fieldset>
+
+		    <input type="hidden" name="fvv" value="1">
+		    <input type="hidden" name="fbzx" value="-968727027270338624">
+		    <!--
+		        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+		        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+		        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+		        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+		    -->
+		    <input type="hidden" name="pageHistory" value="0">
+
+		    <input class="btn btn-primary " id="ss-submit" onclick="show_alert();" type="submit" value="Envoyer">
+		</form>
+
+	</div>
+</div>

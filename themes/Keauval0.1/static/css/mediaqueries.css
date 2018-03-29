@@ -2,6 +2,7 @@
 	[class^="workpost-"] {
 		width:calc((100%/3) - 20px);
 	}
+
 }
 
 
@@ -23,7 +24,6 @@
 		z-index: -10;
 		overflow: hidden;
 		width:100%;
-		background-color:#3B5EF7;
 		height:100vh;
 	}
 
@@ -41,6 +41,11 @@
 	}	
 */
 
+
+	#post:after {
+		display: none;
+	}
+
 	.main{
 		background-color: #ffffff;
 		padding-top:0;
@@ -49,9 +54,12 @@
 	.headerhp{
 		margin-top:-20px;
 	}
+	.container{
+		padding:0;
+	}
 
 	.headerhp .logoheader{
-		content: url(../img/valentinsignaturewhite.png);
+		content: url(../img/valentinsignatureblack.png);
 	    display: inline-grid;
 	    background-size: 100%;
 	    background-repeat: no-repeat;
@@ -90,6 +98,14 @@
 		display: inline-block;
 	}
 
+	.workinfo {
+		top: 0;
+    	transform: inherit;
+	}
+
+	.featuredimg{
+	}
+
 	.worktitre{
 		width:100%;
 	}
@@ -103,7 +119,7 @@
 		display: inherit;
 		font-family: 'Montserrat', sans-serif;
 		text-align: center;
-		color: #ffffff;
+		color: blue;
 	}
 
 	.hpmobile h1{
@@ -127,18 +143,14 @@
 	}
 
 	.hpmobile .menu a{
-	    background-color: rgba(255, 255, 255, 1);
-	    font-weight: 300;
-	    margin: 10px auto;
-	    font-size: 1.3em;
-	    display: block;
-	    /* letter-spacing: 2px; */
-	    width: 90%;
-	    padding: 15px 20px;
-	    color: #3B5EF7;
-	    text-decoration: none;
-	    /* border: 1px solid #ffffff; */
-	    border-radius: 5px;
+    font-weight: 200;
+    margin: 20px 10px;
+    font-size: 1.3em;
+    width: 80%;
+    padding: 20px 20px;
+    color: #0031ff;
+    text-decoration: none;
+    border: 1px solid #4566f1;
 	}
 
 	.hpmobile .socials{
@@ -207,7 +219,7 @@
 
 	.workcontainer{
 		background-color:#ffffff;
-		padding:0 0 10px 0;
+		padding:0 0 0px 0;
 	}
 	a.worktitre{
 		text-decoration:none;
@@ -221,7 +233,7 @@
 	#post {
 		display: block;
 		background-color: #fafafa;
-		margin:0 0 40px 0;
+		margin: 0;
 		padding:30px 0 40px 0;
 	}
 
@@ -249,10 +261,10 @@
 	
 	#post .workinfo h1,
 	.post .postinfo h1{
-		color:blue;
+		color:#0031ff;
 		line-height: 1em;
 		font-family:'Shrikhand', cursive;
-		font-size: 14vw;
+		font-size: 10vw;
 		padding: 0 20px;
 		margin: 10px 0 30px 0;
 		word-break: keep-all;
@@ -262,8 +274,8 @@
 		font-size:1em;
 		margin-bottom:15px;
 		font-weight: 200;
-		color: #404040;
-		border:1px solid #404040;
+		color: #2249f5;
+		border:1px solid #2249f5;
 		display: inline-block;
 		padding:2px 20px;
 	}
@@ -277,7 +289,7 @@
 	}
 
 	.navpost{
-		margin:2em 0;
+		margin:0em 0;
 		display: inline-block;
 		padding: 0;
 		position:relative;
@@ -291,25 +303,25 @@
 	}
 
 	.navpost span{
+		background-color:transparent !important;
 		right:0 !important;
 		left:0 !important;
 		margin:0 5px;
 		padding: 0 !important;
-		background-color: white !important;
-		color: blue !important;
+		color: #ffffff !important;
 
 	}
 
 	.navpost a{
-		color:blue !important;
+		font-size: 1.5em;
 		font-weight: 200;
 		margin:10px auto;
 		border: 1px solid blue;
-		padding: 10p;
+		padding: 20px;
 		text-align: center;
+		background-color: #3B5EF7;
 		display: block;
-		width:90%;
-		background-color:transparent;
+		width:100%;
 	}
 
 	.prev.collapse{
@@ -323,6 +335,7 @@
 	}
 
 	.postcontent{
+		margin-top:0;
 		padding:10px;
 		background-color:#ffffff;
 	}
@@ -330,7 +343,6 @@
 	.post .postinfo{
 		bottom:0;
 		padding: 10px 0;
-		top:15%;
 		position:absolute;
 	}
 
@@ -338,13 +350,13 @@
 		color: #ffffff;
 		line-height: 1em;
 		font-family:'Shrikhand', cursive;
-		font-size:10vw;
+		font-size:8vw;
 		margin: 10px 0;
 	}
 
 	.post .postinfo h2{
 		margin:10px 0;
-		font-size: 1.4em;
+		font-size: 4vw;
 		color: #ffffff;
 	}
 
@@ -425,6 +437,15 @@
 	    display: inline-block;
 	    width: 40%;
 	    margin-bottom: 30px;
+	}
+
+	.formulaire form{
+		padding:10px;
+	}
+
+	.formulaire h3, .formulaire h4, .formulaire input, .formulaire textarea{
+		font-size:120%;
+		margin-bottom:1em;
 	}
 
 	footer{
