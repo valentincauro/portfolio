@@ -11,7 +11,7 @@ slug = "viande-de-belleville"
 weight = 4
 
 +++
-### ILLUSTRATION
+### ILLUSTRATIONS
 
 ![Logo Aitana](/img/aitana/aitana_illus_01.jpg)
 
@@ -21,10 +21,8 @@ weight = 4
 
 ![Logo Aitana](/img/aitana/aitana_illus_02.jpg)
 
-
 ### IDENTITÉ VISUELLE
 
 ![Cartes de visite](/img/aitana/aitana_id_02.jpg)
 
 ![Grilles tarifaires](/img/aitana/aitana_id_01.jpg)
-
