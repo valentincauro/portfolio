@@ -8,7 +8,14 @@ body{
 a {
 	cursor: pointer;
 }
-
+/**
+@font-face {
+    font-family: 'Escafina High';
+    src: url('hinted-Escafina-High.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+*//
 
 header{
 	position:fixed;
