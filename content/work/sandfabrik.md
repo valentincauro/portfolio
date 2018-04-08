@@ -1,4 +1,5 @@
 +++
+
 draft = "true"
 company = "Logo"
 categories = ["graphisme", "logotype", "identité visuelle"]
