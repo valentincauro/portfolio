@@ -161,10 +161,11 @@ header{
 
 .blocabout{
 	position:relative;
-	top:27vh;
+	transform: translateY(-50%);
+    top: 50%;
 }
 
-.blocabout a{
+.blocabout .link{
 	padding:10px 20px;
 	margin:10px;
 	font-weight: 100;
@@ -177,31 +178,31 @@ header{
 	border:1px solid #fff;
 }
 
-.blocabout a:hover{
+.blocabout .link:hover{
 	color:blue;
 	font-weight: 200;
 	background-color:#FFF;
 }
 
 
-.about .socials a{
+.blocabout .socials a{
 	transform: scale(1.2);
 	opacity:1;
 	margin:0 10px;
 	display:inline-block;
 }
 
-.about .socials a:hover{
+.blocabout .socials a:hover{
 	transform:scale(1.5);
 }
 
-.about .socials{
+.blocabout .socials{
 	display: block;
 	position:initial;
     width: 100%;
     left: 0;
     bottom:0;
-    margin-top:30vh;
+    margin-top:30px;
     filter: brightness(5) saturate(0) contrast(2);
 }
 
