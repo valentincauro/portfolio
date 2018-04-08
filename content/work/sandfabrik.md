@@ -2,6 +2,7 @@
 categories = ["graphisme", "logotype", "identité visuelle"]
 company = "Logo"
 date = "2017-04-12T15:02:00-04:00"
+draft = true
 title = "Sand Fabrik"
 weight = 3
 [menu.principal]
