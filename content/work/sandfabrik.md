@@ -2,7 +2,7 @@
 draft = "true"
 company = "Logo"
 categories = ["graphisme", "logotype", "identité visuelle"]
-date = "2017-04-12T15:02:00-04:00"
+date = "2017-04-12T15:02:00-05:00"
 title = "Sand Fabrik"
 weight = "3"
 [menu.principal]
