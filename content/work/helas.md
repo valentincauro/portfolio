@@ -1,17 +1,14 @@
 +++
-
-company = "Typographie"
 categories = ["typographie", "calligraphie"]
+company = "Typographie"
 date = "2017-04-12T15:02:00-04:00"
-title = "Hélas"
-weight = "1"
-
 intro = "Les lettres, toujours les lettres. Projet personnel de création d'une typographie. En cours."
-
+title = "Hélas"
+weight = 1
 [menu.principal]
 parent = "PORTFOLIO"
-
 slug = "helas"
+weight = 1
 
 +++
 ### HAND

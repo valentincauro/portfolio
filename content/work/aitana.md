@@ -1,18 +1,16 @@
 +++
-
-company = "Aïtana"
 categories = ["graphisme", "illustration"]
+company = "Aïtana"
 date = "2017-04-12T15:02:00-04:00"
 title = "Viande de Belleville"
-weight = "4"
+weight = 4
 [menu.principal]
-parent = "PORTFOLIO"
-
-slug = "viande-de-belleville"
 intro = "Carlos et Alexis détiennent le bon filon : des produits de très grande qualité en provenance directe de petits producteurs espagnols qu'ils livrent dans de fins restaurants parisiens. J'ai développé avec Alexis l'identité visuelle d'Aïtana, à la coirée des chemins entre authenticité, sobriété… et un bin de secret !"
+parent = "PORTFOLIO"
+slug = "viande-de-belleville"
+weight = 4
 
 +++
-
 ### ILLUSTRATION
 
 ![Logo Aitana](/img/aitana/aitana_illus_01.jpg)

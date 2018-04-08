@@ -1,19 +1,16 @@
 +++
-
-company = "Espace de création"
 categories = ["identité", "webdesign", "da", "ux", "ui"]
+company = "Espace de création"
 date = "2017-04-12T15:02:00-04:00"
-title = "Le Désert en Ville"
-weight = "2"
 intro = "Juliette Kempf a un projet qui me tient à cœur. En lui donnant un nom, elle lui accorde un espace temporel. J'ai décidé de l'accompagner en lui donnant un espace visuel. Compagnie d'art vivant, le projet de cet 'espace de création hors-sol' est pour moi le point de jonction jonction entre la conscience et le réel…"
-
+title = "Le Désert en Ville"
+weight = 2
 [menu.principal]
 parent = "PORTFOLIO"
-
 slug = "le-desert-en-ville"
+weight = 2
 
 +++
-
 ### LOGOTYPE
 
 ![Dessin le désert en ville](/img/ledesertenville/logo_2.jpg)

@@ -1,7 +1,6 @@
 baseURL = "http://www.valentincauro.com/"
-title = "Valentin Cauro — Designer Graphique Multimedia"
-theme = "Keauval0.1"
 description = "Valentin Cauro - Designer graphique multimedia"
-
+theme = "Keauval0.1"
+title = "Valentin Cauro — Designer Graphique Multimedia"
 [taxonomies]
 category = "categories"
