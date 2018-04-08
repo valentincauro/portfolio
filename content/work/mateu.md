@@ -1,16 +1,15 @@
 +++
-company = "MATEU"
 categories = ["typographie", "graphisme"]
+company = "MATEU"
 date = "2017-04-12T15:00:00-04:00"
 title = "Frères Disjonctés"
-weight = "9"
+weight = 9
 [menu.principal]
-parent = "PORTFOLIO"
-
 intro = "Julien et Maxime MATEU sont deux frères électriciens de la région Lyonnaise. Ils voulaient une identité visuelle décalée et drôle pour leur entreprise familiale."
+parent = "PORTFOLIO"
+weight = 9
 
 +++
-
 ### TYPOGRAPHIE
 
 ![Dessin Logo Mateu](/img/mateu/mateu_dessin_1.jpg)![Dessin Logo](/img/mateu/mateu_dessin_2.jpg)

@@ -1,5 +1,6 @@
 +++
-title = "Validation"
 layout = "confirmation"
-+++
+title = "Validation"
+type = "page"
 
++++

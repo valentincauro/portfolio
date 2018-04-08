@@ -1,19 +1,16 @@
 +++
+categories = ["photographie", "identite"]
 company = "Point de Vues"
-categories = ["photographie","identite"]
 date = "2017-04-12T15:00:00-04:00"
-title = "Projet photographique"
-weight = "6"
 intro = "Le projet photographique « Point de Vues » est né d’une collaboration artistique fusionnelle avec Marion Widcoq. Un sujet, un instant, deux points de vue. C’est à la fin de notre voyage en Amérique que nous avons pu exposer nos Points de Vues à la galerie Officina de de Arte de Buenos Aires, en Argentine."
-
+title = "Projet photographique"
+weight = 6
 [menu.principal]
 parent = "PORTFOLIO"
-
+weight = 6
 [params]
 
-
 +++
-
 ### PHOTOGRAPHIES
 
 ![Photographies Points de Vues](/img/pointdevues/photo_01.jpg)

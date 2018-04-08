@@ -1,18 +1,15 @@
 +++
-company = "TEE"
 categories = ["typographie", "graphisme", "da"]
+company = "TEE"
 date = "2017-04-12T15:00:00-04:00"
-title = "Montréal s'enjaille"
-weight = "5"
 intro = "Les premiers bourgeons pointent le bout de leur nez. Le long et pénible hiver montréalais touche à sa fin. De là est né une collaboration artistique avec Emmeline Michaud. Enjailler (verbe pronominal) : Faire la fête ; s'amuser ; passer du bon temps."
-
+title = "Montréal s'enjaille"
+weight = 5
 [menu.principal]
 parent = "PORTFOLIO"
-
-
+weight = 5
 
 +++
-
 ![Montréal s'enjaille](http://mir-s3-cdn-cf.behance.net/project_modules/1400/db106c54180191.595254c0aac2c.jpg "Enjailler Faire la fête s'amuser passer du bon temps.")
 
 ![Montréal s'enjaille](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/c9bc9354180191.59511e4defef2.png "Photographie par Charles Mackay")

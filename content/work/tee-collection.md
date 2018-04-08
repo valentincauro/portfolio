@@ -1,16 +1,14 @@
 +++
 categories = ["graphisme", "photographie"]
 company = "Dirty Est"
-weight = "7"
-
 date = "2016-04-12T15:00:00-04:00"
-
-intro="Deux ans après sa création, l’association s’intègre dans le paysage culturel de l’est parisien. Nous lançons alors une collection de tee-shirt dessinés par 4 artistes de Dirty Est. Ils seront vendus sur LaChoperie et en pop-up store. Série limités à 50 ex.  Illustration d’un des modèle, direction artistique du shooting, photographie et réalisation video."
-
+intro = "Deux ans après sa création, l’association s’intègre dans le paysage culturel de l’est parisien. Nous lançons alors une collection de tee-shirt dessinés par 4 artistes de Dirty Est. Ils seront vendus sur LaChoperie et en pop-up store. Série limités à 50 ex.  Illustration d’un des modèle, direction artistique du shooting, photographie et réalisation video."
 slug = "tee-collection"
 title = "Summer Tee"
+weight = 7
 [menu.principal]
 parent = "PORTFOLIO"
+weight = 7
 
 +++
 ### ILLUSTRATION
