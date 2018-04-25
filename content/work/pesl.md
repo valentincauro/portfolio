@@ -2,7 +2,7 @@
 categories = ["logo", "identité", "ux", "ui"]
 company = "Agglomération de Longueuil"
 date = "2017-04-12T15:02:00-04:00"
-intro = "Rafraîchissement des outils de communication du Pôle économique et Social de l'agglomération de Longueuil (Québec) avait besoin d'un rafraîchissement de ses outils de communications. Mandat réalisé à la Coopérative Belvédère"
+intro = "Rafraîchissement des outils de communication du Pôle économique et Social de l'agglomération de Longueuil (Québec). Mandat réalisé à la Coopérative Belvédère"
 title = "Pôle Économique et Social"
 weight = 3
 [menu.principal]
